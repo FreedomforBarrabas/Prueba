@@ -15,7 +15,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   resp.classList.remove("fail");
   resp.classList.remove("send");
 
-  let url = `http://t.me/Pruebanexa_bot
+  let url = `https://t.me/Pruebanexa_bot
 	*_REPORTE DE OBSERVACIONES_*%0A
 	*MANTENIMIENTO*%0A%0A
   *OBSERVADOR*%0A
