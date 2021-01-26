@@ -15,20 +15,21 @@ document.querySelector("#submit").addEventListener("click", e => {
   resp.classList.remove("fail");
   resp.classList.remove("send");
 
-  let url = `tg://resolve?domain=Pruebanexa_bot
+  let url = `https://api.telegram.org/bot1551303959:AAFCZF1xPseLYkwQHG2oYNwrT0MV5ANs4zA/sendMessage?chat_id=-1001245078044&text=
 	*_REPORTE DE OBSERVACIONES_*%0A
 	*MANTENIMIENTO*%0A%0A
-  *OBSERVADOR*%0A
-  *FECHA*%0A
-  ${fecha}%0A
-  *HORA*%0A
-  ${hora}%0A
-  *ACTIVIDAD CRITICA - LUGAR*%0A
-  ${empleado}%0A
+	*OBSERVADOR*%0A
+	${cliente}%0A
+ 	*FECHA*%0A
+	${fecha}%0A
+	*HORA*%0A
+	${hora}%0A
+	*ACTIVIDAD CRITICA - LUGAR*%0A
+	${empleado}%0A
 	*DESCRIPCIÓN*%0A
-  ${servicio}%0A
-  *COMPROMISO*%0A
-  ${compromiso}%0A
+	${servicio}%0A
+	*COMPROMISO*%0A
+	${compromiso}%0A
 	`;
 
   if (cliente === "" || fecha === "" || hora === "") {
